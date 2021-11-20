@@ -36,7 +36,7 @@ const main = () => {
     const twitter_site = get_twitter_site();
 
     const share_text = twitter_site
-        ? `${get_title()}\n${get_url()} by ${get_twitter_site()}`
+        ? `${get_title()}\n${get_url()} by ${twitter_site}`
         : `${get_title()}\n${get_url()}`;
 
     navigator.clipboard
@@ -45,6 +45,7 @@ const main = () => {
             alert("Copied to clipboard!");
         })
         .catch((err) => {
+            // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
             alert(`Failed to copy to clipboard!\n\n${err}`);
         });
 };
