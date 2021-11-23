@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/Robot-Inventor/beautiful-share#readme",
   "devDependencies": {
-    "@types/webextension-polyfill": "0.8.1",
+    "@types/webextension-polyfill": "0.8.2",
     "@typescript-eslint/eslint-plugin": "5.4.0",
     "eslint": "8.3.0",
     "eslint-config-prettier": "8.3.0",
