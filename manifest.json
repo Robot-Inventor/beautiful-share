@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Beautiful Share",
     "short_name": "BShare",
-    "version": "1.0.1.1",
+    "version": "1.0.2.2",
     "description": "An extension to generate text for sharing on SNS based on OGP data.",
     "icons": {
         "16": "image/icon16.png",

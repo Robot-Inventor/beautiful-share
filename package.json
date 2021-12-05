@@ -1,6 +1,6 @@
 {
   "name": "beautiful-share",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An extension to generate text for sharing on SNS based on OGP data.",
   "main": "index.js",
   "scripts": {
